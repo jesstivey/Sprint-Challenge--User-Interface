@@ -133,13 +133,6 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .about {
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px solid red;
-    width: 200px;
-}
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -256,6 +249,26 @@ p {
     justify-content: center;
 }
 
+.middle-content-about {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    justify-content: space-around;
+}
+
+.middle-content-about .strategy {
+    display: flex;
+    flex-wrap: wrap;
+    width: 370px;
+    border-bottom: 1px dashed black;
+    padding-top: 20px;
+}
+
+.middle-content-about img {
+    padding-bottom: 15px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -272,10 +285,10 @@ p {
 
 button {
     border-radius: 5px;
-    margin-top: 20px;
+    margin: 20px 0;
     font-size: 15px;
-	border: 1px solid;
-    padding: 5px 45px;
+	border: 2px solid;
+    padding: 5px 25px;
 }
 
 footer {
